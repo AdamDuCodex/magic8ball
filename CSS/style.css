@@ -1,0 +1,66 @@
+.hide {
+    display: none;
+}
+
+.divalign {
+    display: block;
+    width: fit-content;
+    margin: 250px auto;
+}
+
+.h1text {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: auto;
+  }
+
+.showcase video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+    z-index: -2;
+}
+
+#answers {
+    margin-top: 25px;
+}
+
+#question {
+    height: 20px;
+    font-size: 17px;
+}
+
+#askMe {
+    padding: 4px;
+    margin: 0 10px;
+    font-size: 20px;
+    background-color: rgb(71, 71, 71);
+    color:aliceblue;
+}
+
+#askMe:hover {
+    color:rgb(71, 71, 71);
+    background-color: aliceblue;
+}
+
+#askMe:active {
+    transform: scale(0.99);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(240, 248, 255, 0.15);
+    /* Lowering the shadow */
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Magic 8 Ball</title>
+    
+</head>
+<body>
+    <section class="showcase">
+    <video src="./Pexels Videos 2611250 (1).mp4" muted loop autoplay></video>
+        <div class="divalign">
+            <label for="question"><h1 class="h1text">Ask Me Anything!</h1></label>
+            <input type="text" id="question">
+            <button id="askMe" onclick="randomImg()">Ask</button>
+            <div id="answers">
+            <img src="./magic8ball_extra.png" alt="magic8ball" id="eightBall">
+            </div>
+        </div>
+    </section>
+    <script src="./javascript.js"></script>
+</body>
+</html>
