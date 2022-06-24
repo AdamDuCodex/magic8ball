@@ -6,15 +6,11 @@
     display: block;
     width: fit-content;
     margin: 250px auto;
+    text-align: center;
 }
 
 .h1text {
     color: whitesmoke;
-    text-align: center;
-}
-
-.textcenter {
-    text-align: center;
 }
 
 img {
@@ -41,8 +37,9 @@ img {
 }
 
 #question {
-    height: 20px;
-    font-size: 17px;
+    width: 350px;
+    height: 25px;
+    font-size: 18px;
 }
 
 #askMe {
@@ -60,7 +57,5 @@ img {
 
 #askMe:active {
     transform: scale(0.99);
-    /* Scaling button to 0.98 to its original size */
     box-shadow: 3px 2px 22px 1px rgba(240, 248, 255, 0.15);
-    /* Lowering the shadow */
 }
